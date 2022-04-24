@@ -1,0 +1,77 @@
+body {
+    background-color:gray; 
+    background-image: url('../images/frame1.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+/* 相同元素的多个设置，后面的会覆盖前面设置的相同属性，不同属性的则会继承 */
+body {font-size:100%;}
+h1 {font-size:2.5em;}
+h2 {font-size:1.875em;}
+p {font-size:0.875em;}
+hr {color:sienna;}
+body {color: red;}
+p {margin-left:20px; text-indent: 50px; font-family: 'Times New Roman', Times, serif;}
+p.uppercase {text-transform:uppercase;}
+p.lowercase {text-transform:lowercase;}
+p.capitalize {text-transform:capitalize;}
+p.normal {font-style:normal;}
+p.italic {font-style:italic;}
+p.oblique {font-style:oblique;}
+h1 {color: aqua; text-decoration: overline; font-size: 20px;}
+h1 {font-size: 40px; color: blueviolet;}
+h2 {color: beige;}
+a:link {color:#000000;}      /* 未访问链接*/
+a:visited {color:#00FF00;}  /* 已访问链接 */
+a:hover {color:#FF00FF;}  /* 鼠标移动到链接上 */
+a:active {color:#0000FF;}  /* 鼠标点击时 */
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+a:link {background-color:#B2FF99;}    /* 未访问链接 */
+a:visited {background-color:#FFFF85;} /* 已访问链接 */
+a:hover {background-color:#FF704D;}   /* 鼠标移动到链接上 */
+a:active {background-color:#FF704D;}  /* 鼠标点击时 */
+ul.a {list-style-type: circle;}
+ul.b {list-style-type: square;} 
+ol.c {list-style-type: upper-roman;}
+ol.d {list-style-type: lower-alpha;}
+ul
+{
+    list-style-image: url('sqpurple.gif');
+}
+ul
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+ul li
+{
+    background-image: url(sqpurple.gif);
+    background-repeat: no-repeat;
+    background-position: 0px 5px; 
+    padding-left: 14px; 
+}
+table
+{
+    border-collapse:collapse;
+}
+table, th, td
+{
+    border: 1px solid green;
+}
+table 
+{
+    width:100%;
+}
+th
+{
+    height:50px;
+}
+th
+{
+    background-color:green;
+    color:white;
+}
